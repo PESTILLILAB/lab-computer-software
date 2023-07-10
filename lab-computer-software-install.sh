@@ -40,6 +40,7 @@ tar -zxpf ~/freesurfer.tar.gz
 cd ~/freesurfer
 echo 'export FREESURFER_HOME=$HOME/freesurfer' >> ~/.bashrc
 echo 'source ${FREESURFER_HOME}/SetUpFreeSurfer.sh' >> ~/.bashrc
+cd ~
 
 # install fsl
 curl https://fsl.fmrib.ox.ac.uk/fsldownloads/fslconda/releases/fslinstaller.py --output ~/fslinstaller.py
